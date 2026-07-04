@@ -101,7 +101,7 @@
         <img src="Dashboard.png" alt="Blog-5" width="720">
         <br><br><hr>
      </section>
-       <header class="about"><h2>About Me</h2></header>
+       <header id="about"><h2>About Me</h2></header>
      <section>
        <h2>Hello! My name is Zain Rajpoot.</h2>
        <h3>I am passionate about technology like;</h3>
