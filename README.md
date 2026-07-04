@@ -1,4 +1,3 @@
-
     <nav>
        <h2> <a href="#about">About Me</a></h2>
     </nav>
