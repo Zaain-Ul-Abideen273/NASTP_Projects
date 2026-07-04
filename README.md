@@ -1,5 +1,5 @@
 <body>    <nav>
-       <h2> <a href="#about">About Me</a></h2>
+       <h2> <a href="#about">About Me      </a> <br><a href="#Blog-1">Blog 1      </a><a href="#Blog-2">Blog 2      </a><a href="#Blog-3">Blog 3      </a><a href="#Blog-4">Blog 4      </a> <a href="#Blog-5">Blog 5      </a></h2>
     </nav>
        <header><h1>Welcome to My NASTP Assignment Reporistory</h1></header>
     <h3>
@@ -11,7 +11,7 @@
       hope you enjoy reading my posts.
       </p>
     <main>
-     <section class="Blog-1">
+     <section id="Blog-1">
         <h1>Blog Post 1</h1>
         <address>
           <pre>
@@ -28,7 +28,7 @@
         <img src="Login.png" alt="Blog-1">
         <br><br><hr>
      </section>
-     <section class="Blog-2">
+     <section id="Blog-2">
         <h1>Blog Post 2</h1>
         <address>
           <pre>
@@ -46,7 +46,7 @@
         <img src="Login.png" alt="Blog-2">
         <br><br><hr>
      </section>
-          <section class="Blog-3">
+          <section id="Blog-3">
         <h1>Blog Post 3</h1>
         <address>
           <pre>
@@ -65,7 +65,7 @@
         <img src="Admin Dashboard.png" alt="Blog-3">
         <br><br><hr>
      </section>
-     <section class="Blog-4">
+     <section id="Blog-4">
         <h1>Blog Post 4</h1>
         <address>
           <pre>
@@ -83,7 +83,7 @@
         <img src="Stream.png" alt="Blog-4">
         <br><br><hr>
      </section>
-     <section class="Blog-5">
+     <section id="Blog-5">
         <h1>Blog Post 5</h1>
         <address>
           <pre>
@@ -101,7 +101,7 @@
         <img src="Dashboard.png" alt="Blog-5" width="720">
         <br><br><hr>
      </section>
-       <header id="about"><h2>About Me</h2></header>
+       <header> <h2 id="about">About Me</h2></header>
      <section>
        <h2>Hello! My name is Zain Rajpoot.</h2>
        <h3>I am passionate about technology like;</h3>
