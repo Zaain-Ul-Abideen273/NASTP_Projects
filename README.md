@@ -1,5 +1,8 @@
-This is my NASTP assignment reporistory
-       <header><h1>Welcome to My Blog</h1></header>
+
+    <nav>
+       <h2> <a href="#about">About Me</a></h2>
+    </nav>
+       <header><h1>Welcome to My NASTP Assignment Reporistory</h1></header>
     <h3>
       Hello! My name is Zain Rajpoot.
     </h3>
@@ -99,5 +102,43 @@ This is my NASTP assignment reporistory
         <img src="Dashboard.png" alt="Blog-5" width="720">
         <br><br><hr>
      </section>
+       <header class="about"><h2>About Me</h2></header>
+     <section>
+       <h2>Hello! My name is Zain Rajpoot.</h2>
+       <h3>I am passionate about technology like;</h3>
+      <ul>
+          <li>Brand Marketeing</li>
+          <li>User Interface Designs</li>
+          <li>User Experience Designs</li>
+          <li>Software Development</li>
+      </ul>
+      <p>I enjoy creating modern applications that are simple, efficient, and user-friendly.
+       I studied Bachelor of Science in Information Technology (BSIT) and have worked on many academic and freelance projects. </p>
+     <h3>My interests include;</h3>
+      <ul>
+        <li>UI/UX Designs</li>
+        <li>Web Development</li>
+        <li>AI applications</li>
+        <li>Bulbble.io (no-code development)</li>
+      </ul>
+      <p>Apart from technology, I enjoy learning new skills, solving problems, and exploring innovative ideas that can improve people's lives.</p>
+     </section>
+     <section>
+        <h3>Recent Jobs, Education, and Accomplishments</h3>
+        <ol>
+            <li>Bachelor of Science in Information Technology (BSIT)</li>
+            <li>UI/UX Designer using Figma and Adobe XD</li>
+            <li>Front-End Web Developer (HTML, CSS, JavaScript)</li>
+            <li>Bubble.io No-Code Developer</li>
+            <li>Python Programmer</li>
+            <li>Built multiple web and mobile application projects</li>
+            <li>Designed dashboards and user-friendly interfaces</li>
+        </ol>
+        <p>Completed several freelance and academic software projects</p>
+     </section>
     </main>
   </body>
+
+
+
+
