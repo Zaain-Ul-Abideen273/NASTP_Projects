@@ -73,12 +73,19 @@
 
 
 //character repetition example
-const timesToRepeat = 100;
-const character = "🐩";
+// const timesToRepeat = 100;
+// const character = "🐩";
 
-let word = ""; // start with an empty string
-for (let i = 0; i < timesToRepeat; i++) {
-  word = word + character;
+// let word = ""; // start with an empty string
+// for (let i = 0; i < timesToRepeat; i++) {
+//   word = word + character;
+// }
+
+// console.log(word);
+
+
+///fuction example 
+function product( num1, num2) {
+  return num1 * num2;
 }
-
-console.log(word);
+console.log(product(6,8));
