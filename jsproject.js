@@ -56,8 +56,17 @@
 
 
 
-let friendsAtYourParty = 0;
-for (let i = 0; i <= 10; i++) {
-  friendsAtYourParty++;
+// let friendsAtYourParty = 0;
+// for (let i = 0; i <= 10; i++) {
+//   friendsAtYourParty++;
+// }
+// console.log(friendsAtYourParty);
+
+
+
+//infinite loop example
+let friendsAtYourParty = 1;
+while (friendsAtYourParty > 0) {
+  friendsAtYourParty = friendsAtYourParty + 1;
 }
 console.log(friendsAtYourParty);
