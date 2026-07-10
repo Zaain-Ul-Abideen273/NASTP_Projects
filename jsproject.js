@@ -84,8 +84,15 @@
 // console.log(word);
 
 
-///fuction example 
-function product( num1, num2) {
-  return num1 * num2;
+// ///fuction example 
+// function product( num1, num2) {
+//   return num1 * num2;
+// }
+// console.log(product(6,8));
+
+
+function greet(firstName, lastName) {
+  return `I hope you enjoy your stay, ${firstName} ${lastName}.`;
 }
-console.log(product(6,8));
+console.log(greet("Zain", "Ul Abideen"));
+console.log(greet("Muhammad", "Baqir"));
