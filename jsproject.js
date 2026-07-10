@@ -9,14 +9,13 @@
 
 
 
-const skyIsBlue = true;
+// const skyIsBlue = true;
 
-if (skyIsBlue) {
-  console.log("The sky is blue!");
-} else {
-  console.log("The sky is … not blue?");
-}
-
+// if (skyIsBlue) {
+//   console.log("The sky is blue!");
+// } else {
+//   console.log("The sky is … not blue?");
+// }
 
 // if you see three lines, it's just three = in a row, ===. the font just combines them into one big character
 if (2 + 2 === 4) {
