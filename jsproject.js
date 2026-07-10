@@ -41,15 +41,23 @@
 // }
 
 
+// let friendsAtYourParty = 0;
+// friendsAtYourParty = friendsAtYourParty + 1;
+// friendsAtYourParty = friendsAtYourParty + 1;
+// friendsAtYourParty = friendsAtYourParty + 1;
+// friendsAtYourParty = friendsAtYourParty + 1;
+// friendsAtYourParty = friendsAtYourParty + 1;
+// friendsAtYourParty = friendsAtYourParty + 1;
+// friendsAtYourParty = friendsAtYourParty + 1;
+// friendsAtYourParty = friendsAtYourParty + 1;
+// friendsAtYourParty = friendsAtYourParty + 1;
+// friendsAtYourParty = friendsAtYourParty + 1;
+// console.log(friendsAtYourParty);
+
+
+
 let friendsAtYourParty = 0;
-friendsAtYourParty = friendsAtYourParty + 1;
-friendsAtYourParty = friendsAtYourParty + 1;
-friendsAtYourParty = friendsAtYourParty + 1;
-friendsAtYourParty = friendsAtYourParty + 1;
-friendsAtYourParty = friendsAtYourParty + 1;
-friendsAtYourParty = friendsAtYourParty + 1;
-friendsAtYourParty = friendsAtYourParty + 1;
-friendsAtYourParty = friendsAtYourParty + 1;
-friendsAtYourParty = friendsAtYourParty + 1;
-friendsAtYourParty = friendsAtYourParty + 1;
+for (let i = 0; i <= 10; i++) {
+  friendsAtYourParty++;
+}
 console.log(friendsAtYourParty);
