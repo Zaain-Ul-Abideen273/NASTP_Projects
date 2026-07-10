@@ -110,20 +110,30 @@
 
 
 
+
+
 //functions with different types of syntax
-function bark() {
-  console.log("woof");
-}
+// function bark() {
+//   console.log("woof");
+// }
 
-const meow = function () {
-  console.log("meeeeeeeow");
-};
+// const meow = function () {
+//   console.log("meeeeeeeow");
+// };
 
-// the => is just = > put together, the font just combines them to one glyph
-const chirp = () => {
-  console.log("chirp chirp");
-};
+// // the => is just = > put together, the font just combines them to one glyph
+// const chirp = () => {
+//   console.log("chirp chirp");
+// };
 
-bark();
-meow();
-chirp();
+// bark();
+// meow();
+// chirp();
+
+
+
+
+//converting a string to lower case
+const sentence = "ThIs HaS wEiRd CaSiNg On It";
+const lowerCaseSentence = sentence.toLowerCase();
+console.log(lowerCaseSentence);
