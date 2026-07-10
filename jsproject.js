@@ -133,7 +133,14 @@
 
 
 
-//converting a string to lower case
-const sentence = "ThIs HaS wEiRd CaSiNg On It";
-const lowerCaseSentence = sentence.toLowerCase();
-console.log(lowerCaseSentence);
+// //converting a string to lower case
+// const sentence = "ThIs HaS wEiRd CaSiNg On It";
+// const lowerCaseSentence = sentence.toLowerCase();
+// console.log(lowerCaseSentence);
+
+
+
+// want to round a number? use Math!
+const number = 5.3;
+const roundedNumber = Math.round(number);
+console.log(number);
