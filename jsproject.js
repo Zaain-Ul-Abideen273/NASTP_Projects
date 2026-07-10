@@ -64,9 +64,21 @@
 
 
 
-//infinite loop example
-let friendsAtYourParty = 1;
-while (friendsAtYourParty > 0) {
-  friendsAtYourParty = friendsAtYourParty + 1;
+// //infinite loop example
+// let friendsAtYourParty = 1;
+// while (friendsAtYourParty > 0) {
+//   friendsAtYourParty = friendsAtYourParty + 1;
+// }
+// console.log(friendsAtYourParty);
+
+
+//character repetition example
+const timesToRepeat = 100;
+const character = "🐩";
+
+let word = ""; // start with an empty string
+for (let i = 0; i < timesToRepeat; i++) {
+  word = word + character;
 }
-console.log(friendsAtYourParty);
+
+console.log(word);
