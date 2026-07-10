@@ -100,10 +100,30 @@
 
 
 //function to print location details
-const myHomeCity = "Islmabad";
-const myHomeState = "Punjab";
-const myHomeCountry = "Pakistan";
-function logOutYourHome(city, state, country) {
-  console.log(`You are from ${city}, ${state} ${country}.`);
+// const myHomeCity = "Islmabad";
+// const myHomeState = "Punjab";
+// const myHomeCountry = "Pakistan";
+// function logOutYourHome(city, state, country) {
+//   console.log(`You are from ${city}, ${state} ${country}.`);
+// }
+// logOutYourHome(myHomeCity, myHomeState, myHomeCountry);
+
+
+
+//functions with different types of syntax
+function bark() {
+  console.log("woof");
 }
-logOutYourHome(myHomeCity, myHomeState, myHomeCountry);
+
+const meow = function () {
+  console.log("meeeeeeeow");
+};
+
+// the => is just = > put together, the font just combines them to one glyph
+const chirp = () => {
+  console.log("chirp chirp");
+};
+
+bark();
+meow();
+chirp();
