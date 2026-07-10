@@ -91,8 +91,19 @@
 // console.log(product(6,8));
 
 
-function greet(firstName, lastName) {
-  return `I hope you enjoy your stay, ${firstName} ${lastName}.`;
+// function greet(firstName, lastName) {
+//   return `I hope you enjoy your stay, ${firstName} ${lastName}.`;
+// }
+// console.log(greet("Zain", "Ul Abideen"));
+// console.log(greet("Muhammad", "Baqir"));
+
+
+
+//function to print location details
+const myHomeCity = "Islmabad";
+const myHomeState = "Punjab";
+const myHomeCountry = "Pakistan";
+function logOutYourHome(city, state, country) {
+  console.log(`You are from ${city}, ${state} ${country}.`);
 }
-console.log(greet("Zain", "Ul Abideen"));
-console.log(greet("Muhammad", "Baqir"));
+logOutYourHome(myHomeCity, myHomeState, myHomeCountry);
