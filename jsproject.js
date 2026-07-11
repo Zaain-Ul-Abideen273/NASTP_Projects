@@ -147,11 +147,27 @@
 
 
 
-// want to see if a string contains another string?
-const testStringOne = "The quick brown fox jumps over the lazy dog";
-const testStringTwo =
-      "Mirror, mirror on the wall, don't say it cause I know I'm cute";
-const stringToLookFor = "cute";
+// // want to see if a string contains another string?
+// const testStringOne = "The quick brown fox jumps over the lazy dog";
+// const testStringTwo =
+//       "Mirror, mirror on the wall, don't say it cause I know I'm cute";
+// const stringToLookFor = "cute";
 
-console.log(testStringOne.includes(stringToLookFor));
-console.log(testStringTwo.includes(stringToLookFor));
+// console.log(testStringOne.includes(stringToLookFor));
+// console.log(testStringTwo.includes(stringToLookFor));
+
+
+
+///Objects making and practicing
+const person = {
+  firstName: "Zain",
+  lastName: "Ul Abideen",
+  age: 20,
+  hobbies: ["coding", "gaming", "reading"],
+  address: {
+    street: "123 Main St",
+    city: "Islamabad",
+    state: "Punjab",
+    country: "Pakistan",
+  },
+};  
