@@ -157,7 +157,6 @@
 // console.log(testStringTwo.includes(stringToLookFor));
 
 
-
 ///Objects making and practicing
 const person = {
   firstName: "Zain",
@@ -171,3 +170,9 @@ const person = {
     country: "Pakistan",
   },
 };  
+console.log(person)
+console.log(person["firstName"])
+console.log(person.hobbies)
+console.log(person.address.city)
+
+
