@@ -327,7 +327,34 @@
 
 
 
-// //array methods and properties
-const primeNumbers = [1, 2, 3, 5, 7, 11, 13, 17];
-  console.log(primeNumbers.length);
-  console.log(primeNumbers.join(" // "));
+// // //array methods and properties
+// const primeNumbers = [1, 2, 3, 5, 7, 11, 13, 17];
+//   console.log(primeNumbers.length);
+//   console.log(primeNumbers.join(" // "));
+
+
+
+
+
+const cities = [
+  "Islamabad",
+  "Rawalpindi",
+  "Lahore",
+  "Karachi",
+  "Rahim Yar Khan"
+];
+let i=0;
+for ( i; i<cities.length;i++) //for (let i = 0; i < cities.length; i++)  //for loop
+{
+console.log(cities[i]);
+}
+
+for (const city of cities) //for (const city of cities)  //for of loop
+{
+  console.log(city);
+}
+
+cities.forEach(function(city) //cities.forEach((city) =>  //arrow function
+{  
+  console.log(city);
+});
