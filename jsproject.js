@@ -497,21 +497,34 @@
 
 
 
-//rest parameters in JavaScript
-function cities(city1,city2,...otherCities) {
-console.log(city1); 
-console.log(otherCities[3]);
-console.log(otherCities);
-}
-cities("Islamabad", "Lahore","Rawalpindi","Sargodha","Gilgit", "Karachi", "Peshawar", "Muzaffarabad");
+// //rest parameters in JavaScript
+// function cities(city1,city2,...otherCities) {
+// console.log(city1); 
+// console.log(otherCities[3]);
+// console.log(otherCities);
+// }
+// cities("Islamabad", "Lahore","Rawalpindi","Sargodha","Gilgit", "Karachi", "Peshawar", "Muzaffarabad");
 
-//rest parameters in JavaScript
-function sum(...numbers) {
-  let total = 0;
-  for (const num of numbers) {
-    total += num;
-  }
-  return total;
-}
-console.log(sum(1, 2, 3));       // 6
-console.log(sum(10, 20, 30, 40)); // 100
+
+// //rest parameters in JavaScript
+// function sum(...numbers) {
+//   let total = 0;
+//   for (const num of numbers) {
+//     total += num;
+//   }
+//   return total;
+// }
+// console.log(sum(1, 2, 3));       // 6
+// console.log(sum(10, 20, 30, 40)); // 100
+
+
+
+
+
+// //map method in JavaScript
+const prices = [500, 1200, 800, 2500];
+const pricesWithTax = prices.map(function (price) {
+  return price * 1.17;
+});
+console.log(prices);        // [500, 1200, 800, 2500] — unchanged
+console.log(pricesWithTax); // [585, 1404, 936, 2925]
