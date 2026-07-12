@@ -311,16 +311,23 @@
 
 
 
-// array of objects representing courses and their teachers
-const courses = [
-  { teacher: "Ahmed Raza", course: "Data Analysis with Python" },
-  { teacher: "Sara Khan", course: "Mobile App Development with Flutter" },
-  { teacher: "Fiaz Hussain", course: "Full Stack Web Development" },
-  { teacher: "Usman Ali", course: "Frontend Web Development" },
-  { teacher: "Ayesha Malik", course: "Backend Development with Node.js" },
-];
+// // array of objects representing courses and their teachers
+// const courses = [
+//   { teacher: "Ahmed Raza", course: "Data Analysis with Python" },
+//   { teacher: "Sara Khan", course: "Mobile App Development with Flutter" },
+//   { teacher: "Fiaz Hussain", course: "Full Stack Web Development" },
+//   { teacher: "Usman Ali", course: "Frontend Web Development" },
+//   { teacher: "Ayesha Malik", course: "Backend Development with Node.js" },
+// ];
 
-courses.push({ teacher: "Hassan Ahmed", course: "UI/UX Design Fundamentals" });
-console.log(courses);
-console.log(courses[4].teacher); // Accessing the teacher of the 5th course (index 4)
-console.log(courses);
+// courses.push({ teacher: "Hassan Ahmed", course: "UI/UX Design Fundamentals" });
+// console.log(courses);
+// console.log(courses[4].teacher); // Accessing the teacher of the 5th course (index 4)
+// console.log(courses);
+
+
+
+// //array methods and properties
+const primeNumbers = [1, 2, 3, 5, 7, 11, 13, 17];
+  console.log(primeNumbers.length);
+  console.log(primeNumbers.join(" // "));
