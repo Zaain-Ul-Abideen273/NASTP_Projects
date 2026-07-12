@@ -213,19 +213,46 @@
 
 
 
-//objects calling and iterating for in loop
+// //objects calling and iterating for in loop
+// const person = {
+//   name: "Fiaz Hussain",
+//   city: "RYK",
+//   state: "Punjab",
+//   favoriteDrink: "Water",
+// };
+
+// for (const key in person){
+//     console.log(`${key}: ${person[key]}`)
+// }
+
+// //or using Object.entries() to iterate over the key-value pairs of the object
+// for (const [key, value] of Object.entries(person)) {
+//   console.log(`${key}: ${value}`);
+// }
+
+
+
+
+
+//understanding this in arrow functions and regular methods
 const person = {
-  name: "Fiaz Hussain",
-  city: "RYK",
-  state: "Punjab",
-  favoriteDrink: "Water",
+  name: "Zain",
+  
+  // 1. Fails: Looks past the object to the global scope
+  arrowFails: () => {
+    console.log("Arrow at root level: " + this.name); 
+  },
+
+  // 2. Works: Regular method binds 'this' to 'person'
+  regularWorks() {
+    // 3. Arrow function inside a regular method works!
+    // It inherits 'this' from 'regularWorks', which is bound to the object.
+    const nestedArrow = () => {
+      console.log("Nested Arrow: jj"   + this.name);
+    };
+    nestedArrow();
+  }
 };
 
-for (const key in person){
-    console.log(`${key}: ${person[key]}`)
-}
-
-//or using Object.entries() to iterate over the key-value pairs of the object
-for (const [key, value] of Object.entries(person)) {
-  console.log(`${key}: ${value}`);
-}
+person.arrowFails();   // Outputs: "Arrow at root level: undefined"
+person.regularWorks(); // Outputs: "Nested Arrow: Zain"
