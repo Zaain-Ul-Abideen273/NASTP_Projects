@@ -289,17 +289,38 @@
 
 
 
-//arrays and accessing elements
-const daysOfTheWeek = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday",
+
+
+
+// //arrays and accessing elements
+// const daysOfTheWeek = [
+//   "Monday",
+//   "Tuesday",
+//   "Wednesday",
+//   "Thursday",
+//   "Friday",
+//   "Saturday",
+//   "Sunday",
+// ];
+// console.log(daysOfTheWeek);
+// console.log(daysOfTheWeek[0]);
+// console.log(daysOfTheWeek[1]);
+// console.log(daysOfTheWeek[6]);
+
+
+
+
+
+// array of objects representing courses and their teachers
+const courses = [
+  { teacher: "Ahmed Raza", course: "Data Analysis with Python" },
+  { teacher: "Sara Khan", course: "Mobile App Development with Flutter" },
+  { teacher: "Fiaz Hussain", course: "Full Stack Web Development" },
+  { teacher: "Usman Ali", course: "Frontend Web Development" },
+  { teacher: "Ayesha Malik", course: "Backend Development with Node.js" },
 ];
-console.log(daysOfTheWeek);
-console.log(daysOfTheWeek[0]);
-console.log(daysOfTheWeek[1]);
-console.log(daysOfTheWeek[6]);
+
+courses.push({ teacher: "Hassan Ahmed", course: "UI/UX Design Fundamentals" });
+console.log(courses);
+console.log(courses[4].teacher); // Accessing the teacher of the 5th course (index 4)
+console.log(courses);
