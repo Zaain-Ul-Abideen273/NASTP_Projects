@@ -260,25 +260,46 @@
 
 
 
-const me = {
-  name: {
-    first: "Zain Ul Abideen",
-    last: "Rajpoot",
-  },
-  location: {
-    streetNumber: 2,
-    street: "Quaid-e-Azam University Road",
-    city: "Islamabad",
-    state: "ICT",
-    zipCode: 44000,
-    country: "Pakistan",
-  },
-  getAddress() {
-    return `${this.name.first} ${this.name.last}
-${this.location.streetNumber} ${this.location.street}
-${this.location.city}, ${this.location.state} ${this.location.zipCode}
-${this.location.country}`;
-  },
-};
 
-console.log(me.getAddress());
+
+// // //object with nested objects and a method to get the full address
+// const me = {
+//   name: {
+//     first: "Zain Ul Abideen",
+//     last: "Rajpoot",
+//   },
+//   location: {
+//     streetNumber: 2,
+//     street: "Quaid-e-Azam University Road",
+//     city: "Islamabad",
+//     state: "ICT",
+//     zipCode: 44000,
+//     country: "Pakistan",
+//   },
+//   getAddress() {
+//     return `${this.name.first} ${this.name.last}
+// ${this.location.streetNumber} ${this.location.street}
+// ${this.location.city}, ${this.location.state} ${this.location.zipCode}
+// ${this.location.country}`;
+//   },
+// };
+
+// console.log(me.getAddress());
+
+
+
+
+//arrays and accessing elements
+const daysOfTheWeek = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
+];
+console.log(daysOfTheWeek);
+console.log(daysOfTheWeek[0]);
+console.log(daysOfTheWeek[1]);
+console.log(daysOfTheWeek[6]);
