@@ -157,22 +157,75 @@
 // console.log(testStringTwo.includes(stringToLookFor));
 
 
+
+
 ///Objects making and practicing
+// const person = {
+//   firstName: "Zain",
+//   lastName: "Ul Abideen",
+//   age: 20,
+//   hobbies: ["coding", "gaming", "reading"],
+//   address: {
+//     street: "123 Main St",
+//     city: "Islamabad",
+//     state: "Punjab",
+//     country: "Pakistan",
+//   },
+// };  
+
+// console.log(person)
+// console.log(person["firstName"])
+// console.log(person.hobbies)
+// console.log(person.address.city)
+
+
+
+
+
+// //Objects making and practicing
+// const personCotactInfo1 = {
+//   firstName: "Zain",
+//   lastName: "Ul Abideen",
+//   age: 20,
+//   email: "zain.ul.abideen@example.com",
+//   phone: "+92 123 456 7890",
+// };
+// const personCotactInfo2 = {
+//   firstName: "Ali",
+//   lastName: "Khan",
+//   age: 25,
+//   email: "ali.khan@example.com",
+//   phone: "+92 123 456 7891",
+// };  
+
+// function suggestmusic(person) {if (person.age === 20) {
+//   console.log(`${person.firstName} ${person.lastName} might enjoy pop music.`);
+// } else if (person.age === 25) {
+//   console.log(`${person.firstName} ${person.lastName} might enjoy rock music.`);
+// } else {
+//   console.log(`${person.firstName} ${person.lastName} might enjoy classical music.`);
+// }
+// }
+// suggestmusic(personCotactInfo1);
+// suggestmusic(personCotactInfo2);
+
+
+
+
+
+//objects calling and iterating for in loop
 const person = {
-  firstName: "Zain",
-  lastName: "Ul Abideen",
-  age: 20,
-  hobbies: ["coding", "gaming", "reading"],
-  address: {
-    street: "123 Main St",
-    city: "Islamabad",
-    state: "Punjab",
-    country: "Pakistan",
-  },
-};  
-console.log(person)
-console.log(person["firstName"])
-console.log(person.hobbies)
-console.log(person.address.city)
+  name: "Fiaz Hussain",
+  city: "RYK",
+  state: "Punjab",
+  favoriteDrink: "Water",
+};
 
+for (const key in person){
+    console.log(`${key}: ${person[key]}`)
+}
 
+//or using Object.entries() to iterate over the key-value pairs of the object
+for (const [key, value] of Object.entries(person)) {
+  console.log(`${key}: ${value}`);
+}
