@@ -538,12 +538,35 @@ console.log(pricesWithTax); // [585, 1404, 936, 2925]
 
 
 // //map method with arrow function
-const cities = ["islamabad", "lahore", "karachi"];
-const capitalized = cities.map((city) => {
-return ( city[0].toUpperCase() + city.slice(1) );
-});
-const slicings = cities.map((city) => {
-return (city[0].toUpperCase() + city.slice(1,4));
-});
-console.log(capitalized)
-console.log(slicings); // ["Isl", "Lah", "Kar"] — first three letters capitalized
+// const cities = ["islamabad", "lahore", "karachi"];
+// const capitalized = cities.map((city) => {
+// return ( city[0].toUpperCase() + city.slice(1) );
+// });
+// const slicings = cities.map((city) => {
+// return (city[0].toUpperCase() + city.slice(1,4));
+// });
+// console.log(capitalized)
+// console.log(slicings); // ["Isl", "Lah", "Kar"] — first three letters capitalized
+
+
+
+
+
+//filter method in JavaScript
+const score=[34,43,34,345,9,0,87,34,79,38,78]
+const fil=score.filter(
+    (score)=>{
+        return  score<= 34;
+    }
+);
+console.log(fil); // Output: [34, 34, 9, 0, 34]
+console.log (...fil); // Output: 34 34 9 0 34
+console.log(fil.join(", "));  // Output: 34, 34, 9, 0, 34
+fil.forEach(num => console.log(num));
+/* Output:
+34
+34
+9
+0
+34
+*/
