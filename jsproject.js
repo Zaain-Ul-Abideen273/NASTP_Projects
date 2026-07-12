@@ -234,25 +234,51 @@
 
 
 
-//understanding this in arrow functions and regular methods
-const person = {
-  name: "Zain",
+// //understanding this in arrow functions and regular methods
+// const person = {
+//   name: "Zain",
   
-  // 1. Fails: Looks past the object to the global scope
-  arrowFails: () => {
-    console.log("Arrow at root level: " + this.name); 
-  },
+//   // 1. Fails: Looks past the object to the global scope
+//   arrowFails: () => {
+//     console.log("Arrow at root level: " + this.name); 
+//   },
 
-  // 2. Works: Regular method binds 'this' to 'person'
-  regularWorks() {
-    // 3. Arrow function inside a regular method works!
-    // It inherits 'this' from 'regularWorks', which is bound to the object.
-    const nestedArrow = () => {
-      console.log("Nested Arrow: jj"   + this.name);
-    };
-    nestedArrow();
-  }
+//   // 2. Works: Regular method binds 'this' to 'person'
+//   regularWorks() {
+//     // 3. Arrow function inside a regular method works!
+//     // It inherits 'this' from 'regularWorks', which is bound to the object.
+//     const nestedArrow = () => {
+//       console.log("Nested Arrow: jj"   + this.name);
+//     };
+//     nestedArrow();
+//   }
+// };
+
+// person.arrowFails();   // Outputs: "Arrow at root level: undefined"
+// person.regularWorks(); // Outputs: "Nested Arrow: Zain"
+
+
+
+
+const me = {
+  name: {
+    first: "Zain Ul Abideen",
+    last: "Rajpoot",
+  },
+  location: {
+    streetNumber: 2,
+    street: "Quaid-e-Azam University Road",
+    city: "Islamabad",
+    state: "ICT",
+    zipCode: 44000,
+    country: "Pakistan",
+  },
+  getAddress() {
+    return `${this.name.first} ${this.name.last}
+${this.location.streetNumber} ${this.location.street}
+${this.location.city}, ${this.location.state} ${this.location.zipCode}
+${this.location.country}`;
+  },
 };
 
-person.arrowFails();   // Outputs: "Arrow at root level: undefined"
-person.regularWorks(); // Outputs: "Nested Arrow: Zain"
+console.log(me.getAddress());
