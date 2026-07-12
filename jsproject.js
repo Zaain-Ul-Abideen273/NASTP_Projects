@@ -442,14 +442,26 @@
 
 
 
-// // //exporting and importing functions
-// This is the math.js file
-// You can import this function in other files using ES6 module syntax.
-export function add(a, b) 
-{
-  return a + b;
-}
+// // // //exporting and importing functions
+// // This is the math.js file
+// // You can import this function in other files using ES6 module syntax.
+// export function add(a, b) 
+// {
+//   return a + b;
+// }
 
+// // main.js
+// import { add } from "./math.js";
+// console.log(add(3, 4)); 
+
+
+
+
+// // //exporting and importing functions using default export
+// logger.js
+export default function log(message) {
+  console.log(message);
+}
 // main.js
-import { add } from "./math.js";
-console.log(add(3, 4)); // 7
+import log from "./logger.js";
+log("Hello modules");
