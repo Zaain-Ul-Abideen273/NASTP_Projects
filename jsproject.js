@@ -597,11 +597,32 @@ fil.forEach(num => console.log(num));
 
 
 
-//reduce method in JavaScript
-const prices = [500, 1200, 800, 2500];
+// //reduce method in JavaScript
+// const prices = [500, 1200, 800, 2500];
 
-const total = prices.reduce(function (runningTotal, price) {
-  return runningTotal + price;
-}, 0);
+// const total = prices.reduce(function (runningTotal, price) {
+//   return runningTotal + price;
+// }, 0);
 
-console.log(total); // 5000
+// console.log(total); // 5000
+
+
+
+
+
+
+
+//using reduce to count occurrences of cities in an array
+const cities = ["Islamabad", "Lahore", "Karachi", "Lahore", "Peshawar"];
+
+const cityCount = cities.reduce(function (counts, city) {
+  if (counts[city]) {
+    counts[city]++;
+  } else {
+    counts[city] = 1;
+  }
+  return counts;
+}, {});
+
+console.log(cityCount);
+// { Islamabad: 1, Lahore: 2, Karachi: 1, Peshawar: 1 }
