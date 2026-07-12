@@ -528,3 +528,22 @@ const pricesWithTax = prices.map(function (price) {
 });
 console.log(prices);        // [500, 1200, 800, 2500] — unchanged
 console.log(pricesWithTax); // [585, 1404, 936, 2925]
+
+
+
+
+
+
+
+
+
+// //map method with arrow function
+const cities = ["islamabad", "lahore", "karachi"];
+const capitalized = cities.map((city) => {
+return ( city[0].toUpperCase() + city.slice(1) );
+});
+const slicings = cities.map((city) => {
+return (city[0].toUpperCase() + city.slice(1,4));
+});
+console.log(capitalized)
+console.log(slicings); // ["Isl", "Lah", "Kar"] — first three letters capitalized
