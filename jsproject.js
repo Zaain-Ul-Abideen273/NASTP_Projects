@@ -647,3 +647,12 @@ const expensiveTotal = products
 .reduce((total, price) => total + price, 0);
 
 console.log(expensiveTotal); // 36000
+
+// Method Summary 
+/*
+...spread	        Expands an array into individual items
+...rest	          Collects remaining arguments into an array
+.map()	          Transform every item → new array (same length)
+.filter()       	Keep items that pass a test → new array (shorter or same length)
+.reduce()       	Accumulate everything → one final value
+*/
