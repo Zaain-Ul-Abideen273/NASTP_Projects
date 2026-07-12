@@ -482,15 +482,25 @@
 
 
 // //spread operator in JavaScript
-const cities = ["Islamabad", "Lahore", "Karachi"];
-// copy an array
-const moreCities = [...cities];
-console.log(moreCities);
-console.log(moreCities === cities); // false — it's a new array
+// const cities = ["Islamabad", "Lahore", "Karachi"];
+// // copy an array
+// const moreCities = [...cities];
+// console.log(moreCities);
+// console.log(moreCities === cities); // false — it's a new array
+// // merge arrays
+// const northernCities = ["Peshawar", "Muzaffarabad"];
+// const allCities = [...northernCities, ...cities];
+// console.log(allCities);
 
-// combine arrays
-const northernCities = ["Peshawar", "Muzaffarabad"];
-const allCities = [...northernCities, ...cities];
-console.log(allCities);
 
 
+
+
+
+//rest parameters in JavaScript
+function cities(city1,city2,...otherCities) {
+console.log(city1); 
+console.log(otherCities[3]);
+console.log(otherCities);
+}
+cities("Islamabad", "Lahore","Rawalpindi","Sargodha","Gilgit", "Karachi", "Peshawar", "Muzaffarabad");
