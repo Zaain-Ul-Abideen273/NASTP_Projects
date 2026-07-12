@@ -1,21 +1,30 @@
 // const firstName = "Zain UL Abideen";
 // const lastName = "Rajpoot";
-
-// const sentence = "Hello " + firstName + " " + lastName + "! How are you!?";
+// 
+// // const sentence = "Hello " + firstName + " " + lastName + "! How are you!?";
 // const sentenceWithTemplate = `Hello ${firstName} ${lastName}! How are you!?`;
-
-// console.log(sentence);
+// 
+// // console.log(sentence);
 // console.log(sentenceWithTemplate);
 
 
 
-// const skyIsBlue = true;
 
-// if (skyIsBlue) {
+
+
+// const skyIsBlue = true;
+// 
+// // if (skyIsBlue) {
 //   console.log("The sky is blue!");
 // } else {
 //   console.log("The sky is … not blue?");
 // }
+
+
+
+
+
+
 
 
 // // if you see three lines, it's just three = in a row, ===. the font just combines them into one big character
@@ -30,15 +39,20 @@
 
 
 
-// const friendsAtYourParty = 10;
 
-// if (friendsAtYourParty === 0) {
+
+
+// const friendsAtYourParty = 10;
+// // if (friendsAtYourParty === 0) {
 //   console.log("Cool, now I have a lot of nachos to myself.");
 // } else if (friendsAtYourParty <= 4) {
 //   console.log("Perfect amount to play some Mario Kart.");
 // } else {
 //   console.log("Wooooo turn on the dance music!");
 // }
+
+
+
 
 
 // let friendsAtYourParty = 0;
@@ -53,6 +67,11 @@
 // friendsAtYourParty = friendsAtYourParty + 1;
 // friendsAtYourParty = friendsAtYourParty + 1;
 // console.log(friendsAtYourParty);
+
+
+
+
+
 
 
 
@@ -64,12 +83,21 @@
 
 
 
+
+
 // //infinite loop example
 // let friendsAtYourParty = 1;
 // while (friendsAtYourParty > 0) {
 //   friendsAtYourParty = friendsAtYourParty + 1;
 // }
 // console.log(friendsAtYourParty);
+
+
+
+
+
+
+
 
 
 //character repetition example
@@ -84,6 +112,9 @@
 // console.log(word);
 
 
+
+
+
 // ///fuction example 
 // function product( num1, num2) {
 //   return num1 * num2;
@@ -91,11 +122,16 @@
 // console.log(product(6,8));
 
 
+
+
+
 // function greet(firstName, lastName) {
 //   return `I hope you enjoy your stay, ${firstName} ${lastName}.`;
 // }
 // console.log(greet("Zain", "Ul Abideen"));
 // console.log(greet("Muhammad", "Baqir"));
+
+
 
 
 
@@ -112,23 +148,27 @@
 
 
 
+
+
 //functions with different types of syntax
 // function bark() {
 //   console.log("woof");
 // }
-
-// const meow = function () {
+// 
+// // const meow = function () {
 //   console.log("meeeeeeeow");
 // };
-
-// // the => is just = > put together, the font just combines them to one glyph
+// 
+// // // the => is just = > put together, the font just combines them to one glyph
 // const chirp = () => {
 //   console.log("chirp chirp");
 // };
-
-// bark();
+// 
+// // bark();
 // meow();
 // chirp();
+
+
 
 
 
@@ -140,10 +180,16 @@
 
 
 
+
+
+
 // // want to round a number? use Math!
 // const number = 5.3;
 // const roundedNumber = Math.round(number);
 // console.log(number);
+
+
+
 
 
 
@@ -155,6 +201,9 @@
 
 // console.log(testStringOne.includes(stringToLookFor));
 // console.log(testStringTwo.includes(stringToLookFor));
+
+
+
 
 
 
@@ -172,11 +221,14 @@
 //     country: "Pakistan",
 //   },
 // };  
-
-// console.log(person)
+// 
+// // console.log(person)
 // console.log(person["firstName"])
 // console.log(person.hobbies)
 // console.log(person.address.city)
+
+
+
 
 
 
@@ -213,6 +265,10 @@
 
 
 
+
+
+
+
 // //objects calling and iterating for in loop
 // const person = {
 //   name: "Fiaz Hussain",
@@ -229,6 +285,10 @@
 // for (const [key, value] of Object.entries(person)) {
 //   console.log(`${key}: ${value}`);
 // }
+
+
+
+
 
 
 
@@ -256,6 +316,8 @@
 
 // person.arrowFails();   // Outputs: "Arrow at root level: undefined"
 // person.regularWorks(); // Outputs: "Nested Arrow: Zain"
+
+
 
 
 
@@ -311,6 +373,7 @@
 
 
 
+
 // // array of objects representing courses and their teachers
 // const courses = [
 //   { teacher: "Ahmed Raza", course: "Data Analysis with Python" },
@@ -327,6 +390,10 @@
 
 
 
+
+
+
+
 // // //array methods and properties
 // const primeNumbers = [1, 2, 3, 5, 7, 11, 13, 17];
 //   console.log(primeNumbers.length);
@@ -336,25 +403,53 @@
 
 
 
-const cities = [
-  "Islamabad",
-  "Rawalpindi",
-  "Lahore",
-  "Karachi",
-  "Rahim Yar Khan"
-];
-let i=0;
-for ( i; i<cities.length;i++) //for (let i = 0; i < cities.length; i++)  //for loop
+
+
+
+
+
+
+// //iterating over arrays using different methods
+// const cities = [
+//   "Islamabad",
+//   "Rawalpindi",
+//   "Lahore",
+//   "Karachi",
+//   "Rahim Yar Khan"
+// ];
+// let i=0;
+// for ( i; i<cities.length;i++) //for (let i = 0; i < cities.length; i++)  //for loop
+// {
+// console.log(cities[i]);
+// }
+
+// for (const city of cities) //for (const city of cities)  //for of loop
+// {
+//   console.log(city);
+// }
+
+// cities.forEach(function(city) //cities.forEach((city) =>  //arrow function
+// {  
+//   console.log(city);
+// });
+
+
+
+
+
+
+
+
+
+
+// // //exporting and importing functions
+// This is the math.js file
+// You can import this function in other files using ES6 module syntax.
+export function add(a, b) 
 {
-console.log(cities[i]);
+  return a + b;
 }
 
-for (const city of cities) //for (const city of cities)  //for of loop
-{
-  console.log(city);
-}
-
-cities.forEach(function(city) //cities.forEach((city) =>  //arrow function
-{  
-  console.log(city);
-});
+// main.js
+import { add } from "./math.js";
+console.log(add(3, 4)); // 7
