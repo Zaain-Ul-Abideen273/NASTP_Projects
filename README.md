@@ -1,5 +1,3 @@
-Done — I cleaned up your README and converted the HTML into a neat, easy-to-read Markdown README. Below is the rewritten README.md. If you want, I can commit this directly to your repository (I can push to the jsprojects branch if that's where you want it — tell me to proceed).
-
 ````markdown name=README.md url=https://github.com/Zaain-Ul-Abideen273/nastp-projects/blob/jsprojects/README.md
 # jsproject.js
 
