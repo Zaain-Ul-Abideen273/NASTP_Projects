@@ -442,6 +442,11 @@
 
 
 
+
+// //modules in JavaScript
+//CommonJS: used by Node.js for many years.
+//ES modules (often just called "modules" or "module JS"): the modern standard supported by browsers and newer Node.js versions.
+
 // // // //exporting and importing functions
 // // This is the math.js file
 // // You can import this function in other files using ES6 module syntax.
@@ -457,11 +462,35 @@
 
 
 
+
+
+
+
+
 // // //exporting and importing functions using default export
 // logger.js
-export default function log(message) {
-  console.log(message);
-}
-// main.js
-import log from "./logger.js";
-log("Hello modules");
+// export default function log(message) {
+//   console.log(message);
+// }
+// // main.js
+// import log from "./logger.js";
+// log("Hello modules");
+
+
+
+
+
+
+// //spread operator in JavaScript
+const cities = ["Islamabad", "Lahore", "Karachi"];
+// copy an array
+const moreCities = [...cities];
+console.log(moreCities);
+console.log(moreCities === cities); // false — it's a new array
+
+// combine arrays
+const northernCities = ["Peshawar", "Muzaffarabad"];
+const allCities = [...northernCities, ...cities];
+console.log(allCities);
+
+
