@@ -1,8 +1,4 @@
-Here's a ready-to-use README (Markdown file that uses HTML tags for nicer rendering). You can paste this into README.md in your repo.
 
-````markdown name=README.md url=https://github.com/Zaain-Ul-Abideen273/nastp-projects/blob/jsprojects/jsproject.js
-<!doctype html>
-<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>jsproject.js — Examples & Notes</title>
