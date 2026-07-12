@@ -577,15 +577,31 @@ fil.forEach(num => console.log(num));
 
 
 
-//filter method with array of objects
-const courses = [
-  { teacher: "Zain Ul Abideen", course: "Full Stack Web Development", seats: 30 },
-  { teacher: "Sara Khan", course: "Mobile App Development", seats: 0 },
-  { teacher: "Ahmer Raza", course: "Data Analysis with Python", seats: 12 },
-];
+// //filter method with array of objects
+// const courses = [
+//   { teacher: "Zain Ul Abideen", course: "Full Stack Web Development", seats: 30 },
+//   { teacher: "Sara Khan", course: "Mobile App Development", seats: 0 },
+//   { teacher: "Ahmer Raza", course: "Data Analysis with Python", seats: 12 },
+// ];
 
-const availableCourses = courses.filter((course) => {
-  return course.seats > 0;
-});
+// const availableCourses = courses.filter((course) => {
+//   return course.seats > 0;
+// });
 
-console.log(...availableCourses);
+// console.log(...availableCourses);
+
+
+
+
+
+
+
+
+//reduce method in JavaScript
+const prices = [500, 1200, 800, 2500];
+
+const total = prices.reduce(function (runningTotal, price) {
+  return runningTotal + price;
+}, 0);
+
+console.log(total); // 5000
