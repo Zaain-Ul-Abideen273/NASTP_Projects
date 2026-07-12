@@ -626,3 +626,24 @@ const cityCount = cities.reduce(function (counts, city) {
 
 console.log(cityCount);
 // { Islamabad: 1, Lahore: 2, Karachi: 1, Peshawar: 1 }
+
+
+
+
+
+
+//using filter, map, and reduce together to calculate the total price of expensive products
+const products = [
+  { name: "Keyboard", price: 3500 },
+  { name: "Mouse", price: 1200 },
+  { name: "Monitor", price: 28000 },
+  { name: "Webcam", price: 4500 },
+  { name: "USB Cable", price: 500 },
+];
+
+const expensiveTotal = products
+.filter((product) => product.price >= 3000)
+.map((product) => product.price)
+.reduce((total, price) => total + price, 0);
+
+console.log(expensiveTotal); // 36000
