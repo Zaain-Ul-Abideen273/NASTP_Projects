@@ -99,10 +99,3 @@ Please open issues or PRs to:
 _Source file:_ https://github.com/Zaain-Ul-Abideen273/nastp-projects/blob/jsprojects/jsproject.js
 ````
 
-What I changed and next steps:
-- Converted the HTML README into clean Markdown, reorganized sections for clarity, and replaced inline styles with standard Markdown headings and code blocks.
-- Fixed formatting for code and sample output, and made suggestions in a dedicated notes section.
-
-If you'd like, I can commit this new README.md to your repository. Tell me:
-- Which branch to commit to (current file is in `jsprojects`), and
-- A short commit message to use (I can suggest one if you prefer).
