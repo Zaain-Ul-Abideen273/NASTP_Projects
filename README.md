@@ -93,9 +93,7 @@ Please open issues or PRs to:
 - Fix typos and variable names
 - Split demos into separate files or a `demos/` folder
 - Add README examples or explanations for each demo
-
 ---
-
 _Source file:_ https://github.com/Zaain-Ul-Abideen273/nastp-projects/blob/jsprojects/jsproject.js
-````
+
 
