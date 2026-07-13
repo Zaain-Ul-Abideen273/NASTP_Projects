@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Event Practice</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 40px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-top: 20px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Interactive DOM Practice</h1>
+
+  <!-- 1. Add a button and a paragraph to the page -->
+  <button type="button" id="action-btn">Click Me!</button>
+  <p id="status-text">This is the original text before clicking.</p>
+
+  <script>
+    // 2. Select both elements with document.querySelector
+    const myButton = document.querySelector("#action-btn");
+    const myParagraph = document.querySelector("#status-text");
+
+    // 3. Add a click event listener to the button
+    myButton.addEventListener("click", () => {
+      
+      // 4. Change the paragraph text when the button is clicked
+      myParagraph.textContent = "Modified by JavaScript! You successfully triggered the click event.";
+      myParagraph.style.color = "#28a745"; // Changing text color to green as a bonus visual cue
+      
+    });
+  </script>
+</body>
+</html>
