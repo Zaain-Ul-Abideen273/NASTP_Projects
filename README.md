@@ -1,4 +1,3 @@
-````markdown name=README.md url=https://github.com/Zaain-Ul-Abideen273/nastp-projects/blob/jsprojects/README.md
 # jsproject.js
 
 > Short collection of JavaScript examples and exercises for learning core concepts.
