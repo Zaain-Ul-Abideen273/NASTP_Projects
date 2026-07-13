@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation Practice</title>
+</head>
+<body>
+
+  <!-- 1. Add a paragraph and a div to the page -->
+  <p class="text-element">This is the original paragraph text.</p>
+  <div class="box-element">Original Div Box</div>
+
+  <!-- Inline JavaScript to select and update the elements -->
+  <script>
+    // 2. Select both elements with document.querySelector
+    const paragraph = document.querySelector(".text-element");
+    const divBox = document.querySelector(".box-element");
+
+    // 3. Change the paragraph text to something new
+    paragraph.textContent = "Modified by JavaScript!";
+
+    // 4. Change the div's background color, width, and height
+    divBox.style.backgroundColor = "royalblue";
+    divBox.style.width = "200px";
+    divBox.style.height = "200px";
+
+    // Extra style adjustments for clear presentation
+    divBox.style.color = "white";
+    divBox.style.display = "flex";
+    divBox.style.justifyContent = "center";
+    divBox.style.alignItems = "center";
+  </script>
+</body>
+</html>
+
