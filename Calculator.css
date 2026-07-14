@@ -1,0 +1,128 @@
+/* Absolute Centering & Universal Resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:
+    "Segoe UI",
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto,
+    sans-serif;
+  background: radial-gradient(circle at center, #1e2640 0%, #0b0e14 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+/* Modern Industrial Wrapper */
+.calc-wrapper {
+  width: 100%;
+  max-width: 380px;
+  background: #41495f;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow:
+    0 20px 50px rgba(123, 107, 107, 0.5),
+    inset 0 1px 1px rgba(125, 118, 118, 0.1);
+  border: 1px solid #232a3c;
+}
+
+/* Advanced Dual-Line Display Engine */
+.screen-container {
+  background-color: #fafafa;
+  padding: 20px 16px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  border: 1px solid #1e2333;
+  box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 110px;
+}
+
+/* History Tracking Line */
+.screen-history {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1rem;
+  color: #6c7a9c;
+  text-align: right;
+  word-wrap: break-word;
+  min-height: 24px;
+  letter-spacing: 1px;
+}
+
+/* Primary Value Output Line */
+.screen-current {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #00ffcc;
+  text-align: right;
+  word-wrap: break-word;
+  margin-top: 8px;
+  text-shadow: 0 0 10px rgba(0, 255, 204, 0.2);
+}
+
+/* CSS Grid Layout Matrix */
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+button {
+  font-size: 1.4rem;
+  font-weight: 600;
+  height: 65px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #232936;
+  color: #e2e8f0;
+  transition: all 0.15s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #2d3546;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  background-color: #1a1f29;
+  transform: translateY(1px);
+}
+
+button.double-span {
+  grid-column: span 2;
+}
+
+button.action-orange {
+  background: linear-gradient(135deg, #ff9f0a 0%, #e07d00 100%);
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+
+button.action-orange:hover {
+  background: linear-gradient(135deg, #ffb340 0%, #f58c00 100%);
+}
+
+button.action-clear {
+  background-color: #e0e5ed;
+  color: #ff5252;
+}
+
+button.action-clear:hover {
+  background-color: #475366;
+}
