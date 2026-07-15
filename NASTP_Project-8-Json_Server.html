@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <title>JSON Practice</title>
+  </head>
+
+  <body>
+    <h1>JSON stringify and parse</h1>
+
+    <script>
+      // 1. Create a regular JavaScript array of Pakistani people
+      const pakistaniPeople = [
+        { name: "Zainab", age: 24 },
+        { name: "Hamza", age: 29 },
+        { name: "Ayesha", age: 31 },
+        { name: "Bilal", age: 22 },
+        { name: "Mariam", age: 27 },
+      ];
+
+      // 2. Use JSON.stringify to convert the array into a raw JSON string
+      // (This is how we prepare data before sending it to a server)
+      const jsonString = JSON.stringify(pakistaniPeople);
+
+      console.log("JSON String (Ready to send to a server)");
+      console.log(jsonString);
+
+      // 3. Use JSON.parse to convert that JSON string back into a usable JavaScript array
+      // (This is what we do when we receive a JSON string from a server)
+      const parsedArray = JSON.parse(jsonString);
+      console.log("\nParsed Array (Back to a usable JS Object)");
+      parsedArray.forEach((person) => {
+        console.log(`Name: ${person.name}, Age: ${person.age}`);
+      });
+    </script>
+  </body>
+</html>
