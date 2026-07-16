@@ -1,0 +1,897 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A professional master web specification guide detailing architecture, standards, and execution blueprints for the project."
+    />
+    <title>web-spec-encyclopedia</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div id="app-container">
+      <header id="main-header">
+        <h1>Web Specification Encyclopedia</h1>
+        <p>
+          A professional master web specification guide detailing architecture.
+        </p>
+      </header>
+      <div class="layout-wrapper">
+        <aside id="sidebar-nav">
+          <h2>Categories</h2>
+          <ul id="toc-list"></ul>
+        </aside>
+        <main id="content-stream">
+          <section id="sec-headings" class="spec-section">
+            <header>
+              <h2>Category 1: Structural Headings</h2>
+              <p>
+                Demonstrating the standard heading tags used for document
+                hierarchy.
+              </p>
+            </header>
+            <div class="demo-box">
+              <h1>Heading Level 1</h1>
+              <h2>Heading Level 2</h2>
+              <h3>Heading Level 3</h3>
+              <h4>Heading Level 4</h4>
+              <h5>Heading Level 5</h5>
+              <h6>Heading Level 6</h6>
+            </div>
+          </section>
+          <section id="sec-text-formatting" class="spec-section">
+            <header>
+              <h2>Category 2: Inline Text &amp; Formatting</h2>
+              <p>
+                Exploring paragraphs, line breaks, thematic breaks, and inline
+                emphasis tags.
+              </p>
+            </header>
+
+            <div class="demo-box">
+              <p>
+                This is a standard paragraph element using the
+                <code>&lt;p&gt;</code> tag. Inside this text, we can apply
+                <strong>strong importance</strong> or simple
+                <b>stylistic bolding</b> to highlight keywords. We can also use
+                <em>semantic emphasis</em> or <i>stylistic italics</i> to change
+                the tone of our text content.<br />
+                A line break tag forces this specific sentence to start directly
+                on a fresh line.
+              </p>
+
+              <hr />
+
+              <p>
+                Below the thematic horizontal rule, we use the code element to
+                display snippets like
+                <code>document.getElementById()</code> inline cleanly.
+              </p>
+            </div>
+          </section>
+          <section id="sec-links" class="spec-section">
+            <header>
+              <h2>Category 3: Hyperlinks &amp; Navigation</h2>
+              <p>
+                Demonstrating anchor tags, absolute and relative paths, and
+                window targeting attributes.
+              </p>
+            </header>
+            <div class="demo-box">
+              <p>
+                <a
+                  href="https://www.google.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open External Website (Google) in a New Tab
+                </a>
+              </p>
+
+              <p>
+                <a href="style.css">
+                  View Local CSS Stylesheet File (Relative Path)
+                </a>
+              </p>
+
+              <p>
+                <a href="#sec-headings">
+                  Jump Back Up to Category 1 (Headings Section)
+                </a>
+              </p>
+
+              <p>
+                <a href="mailto:zimirajpoot273@gmail.com">
+                  Send an Email (Mailto Action Protocol)
+                </a>
+              </p>
+            </div>
+          </section>
+          <section id="sec-lists" class="spec-section">
+            <header>
+              <h2>Category 4: List Structures</h2>
+              <p>
+                Demonstrating unordered, ordered, and key-value description
+                lists.
+              </p>
+            </header>
+
+            <div class="demo-box">
+              <h3>Unordered List (Bullet Points)</h3>
+              <ul>
+                <li>Front-End Core (HTML5 / CSS3 / Modern JS)</li>
+                <li>E-commerce Solutions (Shopify Architecture)</li>
+                <li>Digital Marketing Systems</li>
+              </ul>
+
+              <h3>Ordered List (Sequential Hierarchy)</h3>
+              <ol>
+                <li>Define project architecture requirements</li>
+                <li>Execute semantic structural HTML markup</li>
+                <li>Apply responsive CSS layouts and variables</li>
+              </ol>
+
+              <h3>Description List (Metadata / Glossaries)</h3>
+              <dl>
+                <dt>FBR</dt>
+                <dd>
+                  Federal Board of Revenue - Regulatory tax authority framework.
+                </dd>
+                <dt>SEO</dt>
+                <dd>
+                  Search Engine Optimization - Enhancing structural
+                  discoverability.
+                </dd>
+              </dl>
+            </div>
+          </section>
+          <section id="sec-tables" class="spec-section">
+            <header>
+              <h2>Category 5: Tabular Data Structures</h2>
+              <p>
+                Demonstrating complex tables with headers, row scopes, cell
+                spans, and structural formatting blocks.
+              </p>
+            </header>
+
+            <div class="demo-box">
+              <table
+                border="1"
+                style="border-collapse: collapse; width: 100%; padding: 8px"
+              >
+                <caption>
+                  System Component Inventory
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Component ID</th>
+                    <th scope="col">Layer Category</th>
+                    <th scope="col">Core Responsibility</th>
+                    <th scope="col">Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>COM-01</td>
+                    <td>Semantic Layout</td>
+                    <td>Document layout structure and content scoping</td>
+                    <td>Complete</td>
+                  </tr>
+                  <tr>
+                    <td>COM-02</td>
+                    <td>Typography Engine</td>
+                    <td>Inline element formatting and baseline hierarchy</td>
+                    <td>Complete</td>
+                  </tr>
+                  <tr>
+                    <td>COM-03</td>
+                    <td>Navigation Matrix</td>
+                    <td>Cross-linking and local anchor jumps</td>
+                    <td>Active</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="3">Total Configured Spec Components</td>
+                    <td>3 Layers</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          </section>
+          <section id="sec-media" class="spec-section">
+            <header>
+              <h2>Category 6: Multimedia Elements &amp; Graphics</h2>
+              <p>
+                Demonstrating modern image formats, audio players, video
+                streams, and scalable inline vector vectors.
+              </p>
+            </header>
+
+            <div class="demo-box">
+              <h3>1. Standard Inline Image (With Fallback Content)</h3>
+              <img
+                src="https://picsum.photos/id/1/600/300"
+                alt="Developer workspace with laptop displaying abstract lines of code"
+                width="100%"
+                style="
+                  max-width: 600px;
+                  display: block;
+                  margin-bottom: 20px;
+                  border-radius: 4px;
+                "
+              />
+
+              <h3>2. Custom Scalable Vector Graphic (Inline SVG)</h3>
+              <svg
+                width="100"
+                height="100"
+                style="display: block; margin-bottom: 20px"
+              >
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="40"
+                  stroke="var(--accent-color, #007bff)"
+                  stroke-width="4"
+                  fill="none"
+                />
+                <polygon
+                  points="45,35 70,50 45,65"
+                  fill="var(--accent-color, #007bff)"
+                />
+              </svg>
+
+              <h3>3. Native Video Streaming Component</h3>
+              <video
+                src="https://www.w3schools.com/html/mov_bbb.mp4"
+                controls
+                width="100%"
+                style="
+                  max-width: 600px;
+                  display: block;
+                  margin-bottom: 20px;
+                  border-radius: 4px;
+                "
+              >
+                Your browser does not support the video tag platform.
+              </video>
+
+              <h3>4. Native Audio Stream Component</h3>
+              <audio
+                src="https://www.w3schools.com/html/horse.mp3"
+                controls
+                style="display: block; width: 100%; max-width: 400px"
+              >
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </section>
+          <section id="sec-forms" class="spec-section">
+            <header>
+              <h2>Category 7: Advanced Forms &amp; Inputs</h2>
+              <p>
+                Demonstrating extensive user input interfaces, field grouping,
+                validation flags, and operational selection states.
+              </p>
+            </header>
+
+            <div class="demo-box">
+              <form action="#" method="GET" onsubmit="event.preventDefault()">
+                <fieldset
+                  style="
+                    padding: 15px;
+                    border: 1px solid var(--border-color, #dee2e6);
+                    border-radius: 4px;
+                    margin-bottom: 15px;
+                  "
+                >
+                  <legend style="padding: 0 10px; font-weight: bold">
+                    Personal Identity Metrics
+                  </legend>
+
+                  <p style="margin-bottom: 10px">
+                    <label
+                      for="txt-name"
+                      style="display: block; font-weight: 500"
+                      >Full Structural Name:</label
+                    >
+                    <input
+                      type="text"
+                      id="txt-name"
+                      name="userName"
+                      placeholder="Zain Ul Abideen"
+                      required
+                      style="width: 100%; padding: 6px; margin-top: 4px"
+                    />
+                  </p>
+
+                  <p style="margin-bottom: 10px">
+                    <label
+                      for="txt-email"
+                      style="display: block; font-weight: 500"
+                      >Secure Email Channel:</label
+                    >
+                    <input
+                      type="email"
+                      id="txt-email"
+                      name="userEmail"
+                      placeholder="developer@example.com"
+                      required
+                      style="width: 100%; padding: 6px; margin-top: 4px"
+                    />
+                  </p>
+
+                  <p style="margin-bottom: 10px">
+                    <label
+                      for="num-experience"
+                      style="display: block; font-weight: 500"
+                      >Years of Technical Development:</label
+                    >
+                    <input
+                      type="number"
+                      id="num-experience"
+                      name="userExperience"
+                      min="0"
+                      max="50"
+                      value="1"
+                      style="width: 100%; padding: 6px; margin-top: 4px"
+                    />
+                  </p>
+                </fieldset>
+
+                <fieldset
+                  style="
+                    padding: 15px;
+                    border: 1px solid var(--border-color, #dee2e6);
+                    border-radius: 4px;
+                    margin-bottom: 15px;
+                  "
+                >
+                  <legend style="padding: 0 10px; font-weight: bold">
+                    Configuration Selections
+                  </legend>
+
+                  <p style="margin-bottom: 10px">
+                    <span
+                      style="
+                        display: block;
+                        font-weight: 500;
+                        margin-bottom: 4px;
+                      "
+                      >Preferred Architecture Track:</span
+                    >
+                    <input
+                      type="radio"
+                      id="rad-fs"
+                      name="track"
+                      value="fullstack"
+                      checked
+                    />
+                    <label for="rad-fs">Full-Stack Core</label><br />
+                    <input
+                      type="radio"
+                      id="rad-ecom"
+                      name="track"
+                      value="ecommerce"
+                    />
+                    <label for="rad-ecom"
+                      >Enterprise E-commerce (Shopify Engine)</label
+                    >
+                  </p>
+
+                  <p style="margin-bottom: 10px">
+                    <label
+                      for="sel-industry"
+                      style="display: block; font-weight: 500"
+                      >Core Industry Sector Focus:</label
+                    >
+                    <select
+                      id="sel-industry"
+                      name="industry"
+                      style="width: 100%; padding: 6px; margin-top: 4px"
+                    >
+                      <optgroup label="Primary Sectors">
+                        <option value="agribusiness">
+                          Agribusiness &amp; Organic Food Brand Infrastructure
+                        </option>
+                        <option value="software">
+                          Custom Software &amp; Platform Engineering
+                        </option>
+                      </optgroup>
+                      <optgroup label="Secondary Sectors">
+                        <option value="apparel">
+                          Digital Apparel &amp; Logistics Management
+                        </option>
+                      </optgroup>
+                    </select>
+                  </p>
+                </fieldset>
+
+                <div style="display: flex; gap: 10px">
+                  <button
+                    type="submit"
+                    style="
+                      padding: 8px 16px;
+                      background-color: #007bff;
+                      color: white;
+                      border: none;
+                      border-radius: 4px;
+                      cursor: pointer;
+                    "
+                  >
+                    Execute Submission
+                  </button>
+                  <button
+                    type="reset"
+                    style="
+                      padding: 8px 16px;
+                      background-color: #6c757d;
+                      color: white;
+                      border: none;
+                      border-radius: 4px;
+                      cursor: pointer;
+                    "
+                  >
+                    Reset Variables
+                  </button>
+                </div>
+              </form>
+            </div>
+          </section>
+          <section id="sec-wrappers" class="spec-section">
+            <header>
+              <h2>Category 8: Semantic Data Wrappers &amp; Inline Elements</h2>
+              <p>
+                Demonstrating self-contained data components using figures,
+                descriptive captions, block grouping layers, and inline text
+                spans.
+              </p>
+            </header>
+
+            <div class="demo-box">
+              <h3>1. The Figure and Figcaption Asset Assembly</h3>
+              <figure
+                style="
+                  background-color: var(--bg-secondary, #ffffff);
+                  padding: 15px;
+                  border: 1px solid var(--border-color, #dee2e6);
+                  border-radius: 4px;
+                  display: inline-block;
+                  margin: 0;
+                "
+              >
+                <img
+                  src="https://picsum.photos/id/60/400/200"
+                  alt="Detailed close-up texture of an ancient historical book binding"
+                  style="border-radius: 2px; max-width: 100%; height: auto"
+                />
+                <figcaption
+                  style="
+                    font-size: 0.85rem;
+                    color: var(--text-muted, #6c757d);
+                    margin-top: 8px;
+                    font-style: italic;
+                  "
+                >
+                  Figure 1.1: Historical manuscript profiling early governance
+                  structures and administrative policy.
+                </figcaption>
+              </figure>
+
+              <h3>2. Generic Blocks vs. Generic Inline Elements</h3>
+              <div
+                style="
+                  background-color: #e9ecef;
+                  padding: 10px;
+                  margin-top: 15px;
+                  border-left: 4px solid var(--accent-color, #007bff);
+                "
+              >
+                This text lives inside a generic block-level
+                <code>&lt;div&gt;</code> element. It naturally breaks to a new
+                line and spans the full width available. Inside it, we use a
+                targeted
+                <span
+                  style="
+                    background-color: #ffeeba;
+                    color: #856404;
+                    padding: 2px 4px;
+                    font-weight: bold;
+                    border-radius: 2px;
+                  "
+                  >generic inline &lt;span&gt; element</span
+                >
+                to style an isolated cluster of text without disrupting the
+                paragraph layout stream.
+              </div>
+            </div>
+          </section>
+          <section id="sec-interactive-elements" class="spec-section">
+            <header>
+              <h2>Category 9: Native Dialog Modals &amp; Frames</h2>
+              <p>
+                Demonstrating native interactive popup windows and embedded
+                secondary browsing contexts.
+              </p>
+            </header>
+
+            <div class="demo-box">
+              <h3>1. Native Dialog Component Layer</h3>
+              <p style="margin-bottom: 15px">
+                HTML5 provides a built-in interactive window container. While
+                JavaScript is required to toggle its operational visibility, it
+                holds native state tracking attributes.
+              </p>
+
+              <dialog
+                open
+                style="
+                  position: relative;
+                  inline-size: 100%;
+                  max-inline-size: 500px;
+                  padding: 15px;
+                  margin-bottom: 25px;
+                  border: 1px solid #ffc107;
+                  background-color: #fff3cd;
+                  color: #856404;
+                  border-radius: 4px;
+                  box-shadow: none;
+                "
+              >
+                <strong style="display: block; margin-bottom: 5px"
+                  >⚠️ Specification Sandbox Notice:</strong
+                >
+                This is a native HTML5 <code>&lt;dialog&gt;</code> component.
+                The <code>open</code> attribute is temporarily present in the
+                source code to render it visible for structure confirmation.
+              </dialog>
+
+              <h3>2. Embedded Inline Browsing Frame</h3>
+              <p style="margin-bottom: 10px">
+                The <code>&lt;iframe&gt;</code> element embeds an entirely
+                separate web document inside your current layer coordinates.
+              </p>
+
+              <iframe
+                src="about:blank"
+                title="Isolated Sanboxed Documentation Window"
+                style="
+                  width: 100%;
+                  height: 150px;
+                  border: 1px solid var(--border-color, #dee2e6);
+                  border-radius: 4px;
+                  background-color: #ffffff;
+                "
+              ></iframe>
+            </div>
+          </section>
+          <section id="sec-advanced-specs" class="spec-section">
+            <header>
+              <h2>
+                Category 10: Advanced Semantics, Data Metrics &amp; Templates
+              </h2>
+              <p>
+                Demonstrating specialized structural metadata, machine-readable
+                indicators, native disclosures, and isolated component
+                blueprints.
+              </p>
+            </header>
+
+            <div class="demo-box">
+              <h3>1. Machine-Readable Semantics &amp; Editorial Tracking</h3>
+              <p>
+                The execution deadline was
+                <time datetime="2026-06-27">June 27, 2026</time>. <br />
+                The base cost configuration is mapped to
+                <data value="500">500 Credits</data> inside our engine. <br />
+                The system can display <del>deprecated legacy logic</del> right
+                next to <ins>inserted modern standards</ins>. <br />
+                We can use mathematical variables like <var>E</var> =
+                <var>m</var><var>c</var><sup>2</sup> or represent chemicals like
+                H<sub>2</sub>O. <br />
+                To execute a forced update, type the terminal command:
+                <kbd>npm run build</kbd>. The system output will read
+                <samp>Success</samp>. <br />
+                You can also use
+                <mark>highlighted background tracking text markers</mark> to
+                guide user focus.
+              </p>
+
+              <hr style="margin: 15px 0" />
+
+              <h3>2. Native Interactive Disclosures (Details &amp; Summary)</h3>
+              <details
+                style="
+                  padding: 10px;
+                  background-color: var(--bg-secondary, #ffffff);
+                  border: 1px solid var(--border-color, #dee2e6);
+                  border-radius: 4px;
+                "
+              >
+                <summary
+                  style="font-weight: 600; cursor: pointer; padding: 2px"
+                >
+                  Click to view deep-dive architecture specs
+                </summary>
+                <p
+                  style="
+                    margin-top: 10px;
+                    font-size: 0.9rem;
+                    color: var(--text-muted, #6c757d);
+                  "
+                >
+                  This extended information panel is fully self-managed by the
+                  browser engine using the native
+                  <code>&lt;details&gt;</code> and
+                  <code>&lt;summary&gt;</code> tags.
+                </p>
+              </details>
+
+              <hr style="margin: 15px 0" />
+
+              <h3>3. Dynamic Data Metrics &amp; Input Hints</h3>
+              <p style="margin-bottom: 10px">
+                <label for="prog-bar">System Compilation Progress:</label>
+                <progress
+                  id="prog-bar"
+                  max="100"
+                  value="75"
+                  style="width: 100%; height: 20px"
+                ></progress>
+              </p>
+              <p style="margin-bottom: 15px">
+                <label for="met-gauge">Memory Allocation Load Gauge:</label>
+                <meter
+                  id="met-gauge"
+                  min="0"
+                  max="100"
+                  low="33"
+                  high="66"
+                  optimum="50"
+                  value="85"
+                  style="width: 100%; height: 20px"
+                ></meter>
+              </p>
+
+              <p>
+                <label for="txt-framework"
+                  >Select Target Framework Variant:</label
+                >
+                <input
+                  type="text"
+                  id="txt-framework"
+                  list="dl-frameworks"
+                  placeholder="Type to filter..."
+                  style="width: 100%; padding: 6px; margin-top: 4px"
+                />
+                <datalist id="dl-frameworks">
+                  <option
+                    value="Vanilla HTML5/CSS3/JS Specification Architecture"
+                  ></option>
+                  <option
+                    value="Shopify Liquid Platform Optimization Theme Engine"
+                  ></option>
+                  <option
+                    value="Custom Web Component Template Framework"
+                  ></option>
+                </datalist>
+              </p>
+
+              <hr style="margin: 15px 0" />
+
+              <h3>4. Isolated Web Blueprints (Template Tag)</h3>
+              <p>
+                The element below is completely invisible to the user because it
+                sits inside a template wrapper. It is reserved exclusively for
+                JavaScript clones later.
+              </p>
+
+              <template id="tmpl-blueprint-node">
+                <div
+                  class="dynamic-card"
+                  style="
+                    padding: 10px;
+                    background: #d4edda;
+                    border: 1px solid #c3e6cb;
+                    border-radius: 4px;
+                    margin-top: 10px;
+                  "
+                >
+                  <h4>Cloned Blueprint Instance Node Node</h4>
+                  <p>
+                    This markup component was injected dynamically into your
+                    content stream via client-side code.
+                  </p>
+                </div>
+              </template>
+            </div>
+          </section>
+          <section id="sec-niche-specs" class="spec-section">
+            <header>
+              <h2>
+                Category 11: Niche Semantics, Complex Layouts &amp; Fallbacks
+              </h2>
+              <p>
+                The definitive final layer capturing pre-formatted code blocks,
+                blockquotes, multi-source imagery, canvas drawing fields, script
+                fallbacks, and international typography rules.
+              </p>
+            </header>
+
+            <div class="demo-box">
+              <h3>1. Pre-formatted Blocks &amp; Extended Document Quotes</h3>
+              <blockquote cite="https://www.w3.org/TR/html52/">
+                <p>
+                  The HTML5 specification defines the abstract language and
+                  layout rules that govern the baseline architecture of the
+                  global World Wide Web distribution network.
+                </p>
+                <footer
+                  style="
+                    margin-top: 5px;
+                    font-size: 0.85rem;
+                    color: var(--text-muted, #6c757d);
+                  "
+                >
+                  &mdash; <cite>W3C Core Specification Blueprint</cite>
+                </footer>
+              </blockquote>
+
+              <pre
+                style="
+                  background: #272822;
+                  color: #f8f8f2;
+                  padding: 10px;
+                  border-radius: 4px;
+                  overflow-x: auto;
+                  font-family: monospace;
+                "
+              >
+function initializeApp() {
+  const container = document.getElementById('app-container');
+  console.log('DOM Core State: Active');
+  return true;
+}
+              </pre>
+
+              <hr style="margin: 15px 0" />
+
+              <h3>
+                2. International Typographic Processing &amp; Abbreviations
+              </h3>
+              <p>
+                An abbreviation example:
+                <abbr title="World Wide Web Consortium">W3C</abbr> regulates
+                global internet standards. <br />
+                An explicit citation marker: We are analyzing the mechanics of
+                <cite>The Web Specification Encyclopedia</cite>. <br />
+                A word-break opportunity marker:
+                ThisIsAnExtremelyLongSystemConfigurationStringThatWeMightWantTo<wbr />BreakIfItExceedsLayoutWidth.
+                <br />
+                East Asian Ruby Annotations:
+                <ruby>漢 <rt>かん</rt> 字 <rt>じ</rt></ruby
+                >. <br />
+                Bi-directional Text Override:
+                <bdo dir="rtl"
+                  >This line of text will render backwards from right to
+                  left.</bdo
+                >
+                <br />
+                Bi-directional Isolation Layer:
+                <bdi>User_ID_9928</bdi> (Maintains text flow independence
+                regardless of surrounding language rules).
+              </p>
+
+              <hr style="margin: 15px 0" />
+
+              <h3>
+                3. Multi-Source Adaptive Imagery &amp; Client-Side Dynamic
+                Canvas
+              </h3>
+              <picture style="display: block; margin-bottom: 15px">
+                <source
+                  media="(min-width: 800px)"
+                  srcset="https://picsum.photos/id/10/800/300"
+                />
+                <source
+                  media="(min-width: 400px)"
+                  srcset="https://picsum.photos/id/10/400/200"
+                />
+                <img
+                  src="https://picsum.photos/id/10/300/150"
+                  alt="Responsive landscape placeholder metric adaptive art asset"
+                  style="
+                    border-radius: 4px;
+                    width: 100%;
+                    max-width: 800px;
+                    height: auto;
+                  "
+                />
+              </picture>
+
+              <p style="margin-bottom: 10px">
+                Dynamic JavaScript Rendering Plane:
+              </p>
+              <canvas
+                id="cnv-render-plane"
+                width="200"
+                height="100"
+                style="
+                  border: 1px dashed #6c757d;
+                  background: #f8f9fa;
+                  display: block;
+                  margin-bottom: 15px;
+                "
+              ></canvas>
+
+              <p style="margin-bottom: 5px">Interactive Asset Mapping Plane:</p>
+              <img
+                src="https://picsum.photos/id/20/200/100"
+                alt="Map grid tracking layer"
+                usemap="#sys-coordinate-map"
+                style="border-radius: 4px"
+              />
+              <map name="sys-coordinate-map">
+                <area
+                  shape="rect"
+                  coords="0,0,100,100"
+                  alt="Left Quadrant System Target"
+                  href="#sec-headings"
+                />
+                <area
+                  shape="rect"
+                  coords="101,0,200,100"
+                  alt="Right Quadrant System Target"
+                  href="#sec-forms"
+                />
+              </map>
+
+              <hr style="margin: 15px 0" />
+
+              <h3>
+                4. Script Execution Fallbacks &amp; Communication Channels
+              </h3>
+              <address
+                style="
+                  font-style: normal;
+                  font-size: 0.9rem;
+                  background: #e9ecef;
+                  padding: 10px;
+                  border-radius: 4px;
+                  margin-bottom: 15px;
+                "
+              >
+                Document Spec Architect: <strong>Zain Ul Abideen</strong><br />
+                Digital Coordinate Registry: <strong>
+                    Sargodha, Pakistan</strong><br />
+                Academic Roots: <strong> IIT Quaid-i-Azam University, Islamabad</strong>
+              </address>
+
+              <noscript>
+                <div
+                  style="
+                    padding: 10px;
+                    background-color: #f8d7da;
+                    color: #721c24;
+                    border: 1px solid #f5c6cb;
+                    border-radius: 4px;
+                  "
+                >
+                  <strong>Critical Notice:</strong> Client-side compilation
+                  scripts are currently restricted or unsupported in this
+                  engine. Some interactive interface elements will remain
+                  locked.
+                </div>
+              </noscript>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
