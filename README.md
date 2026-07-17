@@ -126,7 +126,7 @@
         <h3>Recent Jobs, Education, and Accomplishments</h3>
         <ol>
             <li>Bachelor of Science in Information Technology (BSIT)</li>
-            <li>UI/UX Designer using Figma and Adobe XD</li>
+            <li>UI/UX Designer using Figma(Wireframes,Prototypes,etc</li>
             <li>Front-End Web Developer (HTML, CSS, JavaScript)</li>
             <li>Bubble.io No-Code Developer</li>
             <li>Python Programmer</li>
